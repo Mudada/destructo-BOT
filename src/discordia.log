@@ -1,0 +1,34 @@
+2017-12-13 12:22:31 | [INFO]    | Discordia 2.2.0
+2017-12-13 12:22:31 | [INFO]    | Connecting to Discord...
+2017-12-13 12:22:31 | [ERROR]   | 401 - UNAUTHORIZED : GET https://discordapp.com/api/v7/users/@me
+2017-12-13 12:22:31 | [ERROR]   | Could not authenticate, check token: HTTP Error 0 : 401: Unauthorized
+2017-12-13 12:22:46 | [INFO]    | Discordia 2.2.0
+2017-12-13 12:22:46 | [INFO]    | Connecting to Discord...
+2017-12-13 12:22:46 | [ERROR]   | 401 - UNAUTHORIZED : GET https://discordapp.com/api/v7/users/@me
+2017-12-13 12:22:46 | [ERROR]   | Could not authenticate, check token: HTTP Error 0 : 401: Unauthorized
+2017-12-13 12:23:14 | [INFO]    | Discordia 2.2.0
+2017-12-13 12:23:14 | [INFO]    | Connecting to Discord...
+2017-12-13 12:23:14 | [ERROR]   | 401 - UNAUTHORIZED : GET https://discordapp.com/api/v7/users/@me
+2017-12-13 12:23:14 | [ERROR]   | Could not authenticate, check token: HTTP Error 0 : 401: Unauthorized
+2017-12-13 12:23:26 | [INFO]    | Discordia 2.2.0
+2017-12-13 12:23:26 | [INFO]    | Connecting to Discord...
+2017-12-13 12:23:26 | [ERROR]   | 401 - UNAUTHORIZED : GET https://discordapp.com/api/v7/users/@me
+2017-12-13 12:23:26 | [ERROR]   | Could not authenticate, check token: HTTP Error 0 : 401: Unauthorized
+2017-12-13 12:26:07 | [INFO]    | Discordia 2.2.0
+2017-12-13 12:26:07 | [INFO]    | Connecting to Discord...
+2017-12-13 12:26:07 | [ERROR]   | 401 - UNAUTHORIZED : GET https://discordapp.com/api/v7/users/@me
+2017-12-13 12:26:07 | [ERROR]   | Could not authenticate, check token: HTTP Error 0 : 401: Unauthorized
+2017-12-13 12:28:24 | [INFO]    | Discordia 2.2.0
+2017-12-13 12:28:24 | [INFO]    | Connecting to Discord...
+2017-12-13 12:28:24 | [INFO]    | Authenticated as Destructo#7455
+2017-12-13 12:28:24 | [INFO]    | Launching shard 0 (1 out of 1)...
+2017-12-13 12:28:25 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2017-12-13 12:28:25 | [INFO]    | Shard 0 : Received HELLO (gateway-prd-main-9842)
+2017-12-13 12:28:25 | [INFO]    | Shard 0 : Received READY (gateway-prd-main-9842, discord-sessions-prd-1-3)
+2017-12-13 12:29:56 | [INFO]    | Discordia 2.2.0
+2017-12-13 12:29:56 | [INFO]    | Connecting to Discord...
+2017-12-13 12:29:56 | [INFO]    | Authenticated as Destructo#7455
+2017-12-13 12:29:56 | [INFO]    | Launching shard 0 (1 out of 1)...
+2017-12-13 12:29:56 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2017-12-13 12:29:56 | [INFO]    | Shard 0 : Received HELLO (gateway-prd-main-527n)
+2017-12-13 12:29:56 | [INFO]    | Shard 0 : Received READY (gateway-prd-main-527n, discord-sessions-prd-1-9)
