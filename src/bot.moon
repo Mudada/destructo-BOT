@@ -12,7 +12,7 @@ client\on 'ready', ->
 	print 'Estamos connecto, a si!'
 
 client\on 'messageCreate', (message) ->
-	for k in sm
+	for k in pairs sm
 		if k == message.content
 			sm[k] message
 
