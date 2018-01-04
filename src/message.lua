@@ -1,6 +1,7 @@
-local checkIfUp = message(function()
+local checkIfUp
+checkIfUp = function(message)
   return message.channel:send('Estamos vivando, a si!')
-end)
+end
 local sf = {
   ["!pingo"] = checkIfUp
 }
