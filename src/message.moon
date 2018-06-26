@@ -1,12 +1,12 @@
-checkIfUp = (message) ->
+checkIfUp = (message, _) ->
 	message.channel\send 'Estamos vivando, a si!'
 
-bango = (target) ->
-	message.channel\send ":#{target}: 
-:#{target}: :void: :void: :void: :wata: 
-:#{target}: :void: :void: :watashi: 
-:#{target}: :void: :gun: :watashi: 
-:#{target}: :bangbang: :gun: :watashi: 
+bango = (message, target) ->
+	message.channel\send ":#{target[2]}: 
+:#{target[1]}: :void: :void: :void: :wata: 
+:#{target[1]}: :void: :void: :watashi: 
+:#{target[1]}: :void: :gun: :watashi: 
+:#{target[1]}: :bangbang: :gun: :watashi: 
 :bloodSplat: :void: :void: :watashipipe: 
 :bloodSplat: :void: :void: :void: :shipipe: 
 :bloodSplat:"
