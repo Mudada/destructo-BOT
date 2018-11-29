@@ -15,10 +15,10 @@ client\on 'ready', ->
 client\on 'messageCreate', (message) ->
 	args = {}
 	for w in string.gmatch message.content, "%S+"
-		print "Inserting #{w} in args"
 		table.insert args, w
 	for k in pairs sm
 		if k == args[1]
+			print "Command #{k}, detected"
 			sm[k] message, args
 
 client\on 'memberJoin', (member) ->
