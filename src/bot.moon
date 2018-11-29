@@ -2,6 +2,7 @@ discordia = require 'discordia'
 message = require 'message'
 
 sm = message.sf
+adm = message.admin
 client = discordia.Client()
 
 rolesToAdd = {
@@ -23,6 +24,6 @@ client\on 'messageCreate', (message) ->
 client\on 'memberJoin', (member) ->
 	for k, v in pairs rolesToAdd
 		member\addRole v
-	member.user\send 'Soy el bienvenido en el dome del destructo del anus, a si!'
+	member.user\send 'Soy el bienvenido en el domen del destructo del anus, a si!'
 
 client\run 'Bot ' .. os.getenv"DESTRUCTOBOT"
