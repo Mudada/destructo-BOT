@@ -3,14 +3,18 @@
 (require macro-debugger/stepper)
 (require racket/match)
 
-; ('pingo', <function>)
+(define (match-cmd kw kw.cmd)
+  (if (null? kw.cmd)
+      no-cmd
+      (if (equal? kw (car (first kw.cmd)))
+          (cdr (first kw.cmd))
+          (match-cmd kw (rest kw.cmd)))))
 
-(define-syntax-rule (case-cmd kw kw.cmd)
-  `[(equal? kw ,(car kw.cmd))
-   ,(cdr kw.cmd)
-   ]
-  )
+(define (hello fn) (print fn))
+(define (pouette) 'pouette)
+(define (no-cmd) 'error)
+(define kw.cmd (list (cons 'hello hello) (cons 'pouette pouette)))
 
-(define (hello) 'hello)
-(define kw.cmd (cons 'hello hello))
-(expand/step #'(case-cmd 'hello kw.cmd))
+;(case-cmd 'pouette kw.cmd)
+
+;(expand/step #'(case-cmd 'hello kw.cmd))
